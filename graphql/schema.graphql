@@ -1,8 +1,14 @@
 type Result{
-    sourceSentece:String!
+    id:Int!
+    sourceSentence:String!
     targetSentence:String!
 }
 
 type Query{
-    translate(source:String!, target:String!, text:String!):Result!
+    createLog(source:String!, target:String!, text:String!):Result!
+    getLog:[Result!]!
+}
+
+type Mutation{
+    deleteLog(logId:Int!):Result!
 }
