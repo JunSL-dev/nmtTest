@@ -1,0 +1,8 @@
+type Result{
+    sourceSentece:String!
+    targetSentence:String!
+}
+
+type Query{
+    translate(source:String!, target:String!, text:String!):Result!
+}

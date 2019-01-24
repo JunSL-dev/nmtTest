@@ -1,0 +1,31 @@
+{
+  "name": "apitest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "graphql-tag": "^2.10.1",
+    "graphql-yoga": "^1.17.0",
+    "nodemon": "^1.18.9"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dltmdwns0721/nmtTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dltmdwns0721/nmtTest/issues"
+  },
+  "homepage": "https://github.com/dltmdwns0721/nmtTest#readme"
+}
